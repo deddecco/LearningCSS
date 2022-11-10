@@ -1,29 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap');
 
-p {
-    line-height: 1.5;
-
-}
-
 body {
-    padding: 10%;
+    padding: 5% 10%;
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
 }
 
-a {
-    color: #46757d;
+ol {
+    list-style-type: none;
+    padding: 0;
 }
 
-a:visited {
-    color: purple;
+ul {
+    text-align: center;
+    color: blue;
+    line-height: 1.6;
+    list-style-type: square;
+    list-style-position: inside;
 }
 
-a:hover, a:focus {
-    color: hsl(207, 44%, 49%, 0.8);
-    background-color: gold;
-}
-
-a:active {
+ul li:nth-child(even) {
     color: red;
+}
+
+ul ::marker {
+    color: red;
+    font-family: fantasy;
+    font-size: 1em;
+    content: "Only $5>>";
 }
