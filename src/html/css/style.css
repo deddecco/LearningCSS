@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
     margin: 0;
@@ -6,50 +6,27 @@
     box-sizing: border-box;
 }
 
+
 body {
-    margin: 0.5rem;
+    font-size: 2rem;
     font-family: "Roboto", sans-serif;
-    text-align: center;
 }
 
-nav {
-    border: 2px solid #000;
-    border-radius: 2rem;
-    margin: 0 auto 1rem;
-    max-width: 600px;
-    font-size: 3rem;
-    line-height: 7rem;
-}
-
-h2 {
-    padding: 1rem;
-    background-color: gold;
-    border-radius: 2rem 2rem 0 0;
-}
 
 ul {
     list-style-type: none;
+    text-align: right;
+    background-color: black;
+    margin: 0;
+    padding: 0.5rem;
 }
 
 li {
-    border-top: 1px solid #000;
+    display: inline-block;
+    margin-inline: 0.5rem
 }
 
-li a, li a:visited {
+li a {
+    color: white;
     text-decoration: none;
-    color: #000;
-}
-
-li a{
-    display: block;
-}
-
-li a:hover, li a:focus {
-    color: whitesmoke;
-    background-color: black;
-    cursor: pointer;
-}
-
-li:last-child a{
-    border-radius: 0 0 2rem 2rem;
 }
